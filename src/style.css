@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@plugin "daisyui";
+
+/* ヘッダーなどで使用するz-index値を管理する */
+.G_z-index-1 {
+  z-index: 200;
+}
