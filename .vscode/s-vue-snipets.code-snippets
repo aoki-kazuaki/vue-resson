@@ -1,0 +1,20 @@
+{
+  "Vue Script Setup": {
+    //スニペットのタイトル
+    "prefix": "vvv", //呼び出し時に使われる文字列
+    "body": [
+      //出力される内容(文字列配列で管理する)
+      "<script lang=\"ts\" setup>",
+      "",
+      "</script>",
+      "<template>",
+      " <div>",
+      "",
+      " </div>",
+      "</template>",
+      "",
+      "<style scoped></style>",
+    ],
+    "description": "このプロジェクト独自のvueファイル構成", //説明欄
+  },
+}

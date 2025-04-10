@@ -1,0 +1,10 @@
+{
+  "function-setup": {
+    "prefix": "fff",
+    "body": ["const $1 = () => {",
+    "",
+    " return;",
+    "}"],
+    "description": "関数宣言セットアップ",
+  },
+}

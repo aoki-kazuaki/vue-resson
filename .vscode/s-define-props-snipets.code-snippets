@@ -1,0 +1,7 @@
+{
+  "defineProps": {
+    "prefix": "dprops",
+    "body": ["type DefineProps = {}"],
+    "description": "typeDefineProps呼び出し用snippets",
+  },
+}

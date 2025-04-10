@@ -1,4 +1,12 @@
-<script lang="ts" setup></script>
+<script lang="ts" setup>
+import type { UserDetail } from '@/types/userAuth';
+
+type DefineProps = {
+  userDetail: UserDetail;
+};
+
+const props = defineProps<DefineProps>();
+</script>
 <template>
   <div>
     <header
@@ -8,6 +16,7 @@
         <RouterLink to="/">
           <h1 class="text-3xl font-bold">個人制作アプリ</h1>
         </RouterLink>
+        <p>{{ props.userDetail.userName }}</p>
         <p class="text-3xl">For Vue Lesson</p>
       </div>
     </header>
